@@ -1,0 +1,94 @@
+body{
+    font-family: 'Arial', sans-serif; 
+    margin: 0;
+    padding: 0;
+    background-color: rgb(220, 219, 219);
+}
+nav{
+    text-align: center ;
+    background-color: rgb(61, 61, 61);
+    height :50px;
+    padding-top: 60px;
+}
+button{
+    background-color: rgba(61, 61, 61,0);
+    border: none;
+    color: rgb(193, 191, 193);
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1.1rem;
+
+}
+
+button:hover{
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
+}
+
+.post{
+    background-color: rgb(255, 255, 255);
+    color: rgb(63, 63, 63);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.contact{
+    background-color: rgb(57, 57, 57);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 100%;
+    height: 700px;
+    padding-top: 50px;
+    
+}
+.contact__form{
+    width: 500px;
+    margin-left: 18.5%;
+    background-color:whitesmoke ;
+    margin: auto;
+
+}
+
+label {
+    display: block;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: rgb(91, 91, 91);
+    width: 90%;
+    border-width: 0.5px;
+    margin: 0;
+}
+
+table {
+    margin: auto;
+    width: 95%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 1px;
+    background-color: rgba(255, 255, 255, 0);
+    height: 40%;
+    border: 1px solid rgba(150, 150, 150, 0.848);
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid rgb(150, 150, 150);
+    padding: 8px;
+    text-align: left;
+}
+#btn{
+    width: 98%;
+    background-color: rgb(63, 63, 63);
+    font-size: 0.9rem;
+    margin-bottom: 2px;
+}
+img{
+    margin-left:10px ;
+}
+
+
