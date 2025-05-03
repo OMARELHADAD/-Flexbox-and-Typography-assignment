@@ -47,22 +47,12 @@ button:hover{
     
 }
 .contact__form{
-    width: 500px;
-    margin-left: 18.5%;
+    width: 75%;
     background-color:whitesmoke ;
     margin: auto;
 
 }
 
-label {
-    display: block;
-    font-size: 0.8rem;
-    font-weight: 400;
-    color: rgb(91, 91, 91);
-    width: 90%;
-    border-width: 0.5px;
-    margin: 0;
-}
 
 table {
     margin: auto;
@@ -90,5 +80,27 @@ table th, table td {
 img{
     margin-left:10px ;
 }
+input{
+    width: 96%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid rgb(150, 150, 150);
+    border-radius: 5px;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+textarea{
+    width: 96%;
+    height: 40px;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid rgb(150, 150, 150);
+    border-radius: 5px;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+
+
 
 
